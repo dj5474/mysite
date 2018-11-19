@@ -1,8 +1,6 @@
 from django.urls import path
-from imageio import save
 
-from polls import views
-from polls.views import index, detail, detail2, vote, edit
+from polls.views import index, detail, detail2, vote, edit, save
 
 urlpatterns = [
     path('', index),

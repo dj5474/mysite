@@ -1,10 +1,9 @@
-from click import edit
 from django.contrib import admin
 from django.urls import path
 from imageio import save
 
 from polls import views
-from polls.views import index, detail, detail2, vote
+from polls.views import index, detail, detail2, vote, edit
 
 urlpatterns = [
     path('', index),
